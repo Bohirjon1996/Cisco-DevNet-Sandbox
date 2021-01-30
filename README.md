@@ -9,7 +9,7 @@ https://developer.cisco.com/site/sandbox/
 
 *Search Devbox and Reversed
 
-after that its will generate a VPN for connecting to putty and procedure to putty at left after connecting to putty type text below
+after that its will generate a VPN for connecting to putty and procedure to putty at left after connecting to putty type the text below
 
 
 wget https://raw.githubusercontent.com/mrX04/Cisco-DevNet-Sandbox/master/DevBox-Windows2012.sh &> /dev/null
