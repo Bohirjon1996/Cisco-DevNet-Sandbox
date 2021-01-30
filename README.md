@@ -5,8 +5,9 @@
 
 https://developer.cisco.com/site/sandbox/
 
-**Click Get Started With sandbox
-**Search Devbox and Reversed
+*Click Get Started With sandbox
+
+*Search Devbox and Reversed
 
 
 wget https://raw.githubusercontent.com/mrX04/Cisco-DevNet-Sandbox/master/DevBox-Windows2012.sh &> /dev/null
