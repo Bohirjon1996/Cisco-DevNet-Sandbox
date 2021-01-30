@@ -23,7 +23,7 @@ chmod +x ngrok-choice-linux.sh
 ./ngrok-choice-linux.sh
 mkdir W2012Aero
 cd W2012Aero
-wget -O W2012.vhd https://app.vagrantup.com/thuonghai2711/boxes/W2012DevBox/versions/1.0.0/providers/virtualbox.box
+wget -O W2012.vhd https://app.vagrantup.com/Mrx04/boxes/W2012DevBox/versions/1.0.0/providers/virtualbox.box
 clear
 VBoxManage createvm --name W2012 --ostype Windows8_64 --register --basefolder `pwd` 
 VBoxManage modifyvm W2012 --ioapic on 
@@ -38,7 +38,7 @@ echo All done! Connect your VM using RDP.
 echo IP:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo User: Administrator
-echo Pass: Thuonghai001
+echo Pass: admin123
 echo Finished! You can Close PUTTY now.
 
 
